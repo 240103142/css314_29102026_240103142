@@ -1,0 +1,27 @@
+{
+  "student_id": "40103142",
+  "dimension": 704,
+  "runs": 3,
+  "timings_ns": {
+    "naive_ijk": [
+      20576176250,
+      23095961167,
+      19723294625
+    ],
+    "interchanged_ikj": [
+      18764945917,
+      18755542083,
+      18780333917
+    ],
+    "median_naive_ijk": 20576176250,
+    "median_interchanged_ikj": 18764945917
+  },
+  "speedup_naive_over_interchanged": 1.0965220118944827,
+  "validation": {
+    "allclose_atol_1e-12": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12,
+    "naive_sha256_rounded_6": "63d59d046df9c7049d6b8e47509a5c9f0f19d433e8503d0364d1691541a046ec",
+    "interchanged_sha256_rounded_6": "63d59d046df9c7049d6b8e47509a5c9f0f19d433e8503d0364d1691541a046ec"
+  }
+}

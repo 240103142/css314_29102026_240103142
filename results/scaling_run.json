@@ -1,0 +1,195 @@
+{
+  "student_id": "40103142",
+  "strong_scaling": [
+    {
+      "dimension": 1408,
+      "processes": 1,
+      "iterations_per_sample": 3,
+      "sample_times_ns_per_iteration": [
+        7235555,
+        7184444,
+        7165250
+      ],
+      "median_time_ns": 7184444,
+      "interior_cells": 1976836,
+      "flops_per_iteration": 7907344,
+      "validation_max_abs_error": 0.0,
+      "validation_pass": true,
+      "reference_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "parallel_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "speedup": 1.0,
+      "parallel_efficiency_percent": 100.0,
+      "karp_flatt_serial_fraction": null
+    },
+    {
+      "dimension": 1408,
+      "processes": 2,
+      "iterations_per_sample": 3,
+      "sample_times_ns_per_iteration": [
+        4727250,
+        4560152,
+        4506208
+      ],
+      "median_time_ns": 4560152,
+      "interior_cells": 1976836,
+      "flops_per_iteration": 7907344,
+      "validation_max_abs_error": 0.0,
+      "validation_pass": true,
+      "reference_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "parallel_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "speedup": 1.5754834487973208,
+      "parallel_efficiency_percent": 78.77417243986604,
+      "karp_flatt_serial_fraction": 0.2694516096165549
+    },
+    {
+      "dimension": 1408,
+      "processes": 4,
+      "iterations_per_sample": 3,
+      "sample_times_ns_per_iteration": [
+        3444416,
+        3252958,
+        3247111
+      ],
+      "median_time_ns": 3252958,
+      "interior_cells": 1976836,
+      "flops_per_iteration": 7907344,
+      "validation_max_abs_error": 0.0,
+      "validation_pass": true,
+      "reference_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "parallel_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "speedup": 2.208587998984309,
+      "parallel_efficiency_percent": 55.214699974607726,
+      "karp_flatt_serial_fraction": 0.27037063225305485
+    },
+    {
+      "dimension": 1408,
+      "processes": 8,
+      "iterations_per_sample": 3,
+      "sample_times_ns_per_iteration": [
+        4666402,
+        3780264,
+        3959208
+      ],
+      "median_time_ns": 3959208,
+      "interior_cells": 1976836,
+      "flops_per_iteration": 7907344,
+      "validation_max_abs_error": 0.0,
+      "validation_pass": true,
+      "reference_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "parallel_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "speedup": 1.8146164586452644,
+      "parallel_efficiency_percent": 22.682705733065806,
+      "karp_flatt_serial_fraction": 0.4869493032446212
+    }
+  ],
+  "weak_scaling": [
+    {
+      "dimension": 1408,
+      "processes": 1,
+      "iterations_per_sample": 3,
+      "sample_times_ns_per_iteration": [
+        7796597,
+        8191222,
+        8284694
+      ],
+      "median_time_ns": 8191222,
+      "interior_cells": 1976836,
+      "flops_per_iteration": 7907344,
+      "validation_max_abs_error": 0.0,
+      "validation_pass": true,
+      "reference_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "parallel_sha256_rounded_6": "bd20815c80d92d6da88d3e7af945f813ecbb21c9fbdc58fbbc3296ebc5fe931b",
+      "work_multiplier": 1.0,
+      "pdf_formula_scaled_speedup": 0.8770906221318382,
+      "scaled_throughput_speedup": 0.8770906221318382,
+      "gustafson_estimate_from_strong_s": 1.0
+    },
+    {
+      "dimension": 1992,
+      "processes": 2,
+      "iterations_per_sample": 3,
+      "sample_times_ns_per_iteration": [
+        9707555,
+        9150583,
+        9106222
+      ],
+      "median_time_ns": 9150583,
+      "interior_cells": 3960100,
+      "flops_per_iteration": 15840400,
+      "validation_max_abs_error": 0.0,
+      "validation_pass": true,
+      "reference_sha256_rounded_6": "de74bfb69a2d6be4883e9a09cffb973d71f11e56757d33f5270d22942f0398c9",
+      "parallel_sha256_rounded_6": "de74bfb69a2d6be4883e9a09cffb973d71f11e56757d33f5270d22942f0398c9",
+      "work_multiplier": 2.0032516607346285,
+      "pdf_formula_scaled_speedup": 0.7838606865554696,
+      "scaled_throughput_speedup": 1.5728232151388537,
+      "gustafson_estimate_from_strong_s": 1.6577428182952563
+    },
+    {
+      "dimension": 2816,
+      "processes": 4,
+      "iterations_per_sample": 3,
+      "sample_times_ns_per_iteration": [
+        15811166,
+        15725486,
+        15589125
+      ],
+      "median_time_ns": 15725486,
+      "interior_cells": 7918596,
+      "flops_per_iteration": 31674384,
+      "validation_max_abs_error": 0.0,
+      "validation_pass": true,
+      "reference_sha256_rounded_6": "0f8c088700914e642a4ae73b0cb348a2e7eeef748bc36dd027a9b7b47368b98a",
+      "parallel_sha256_rounded_6": "0f8c088700914e642a4ae73b0cb348a2e7eeef748bc36dd027a9b7b47368b98a",
+      "work_multiplier": 4.005691923862171,
+      "pdf_formula_scaled_speedup": 0.4562170733463029,
+      "scaled_throughput_speedup": 1.8300654942073036,
+      "gustafson_estimate_from_strong_s": 2.973228454885769
+    },
+    {
+      "dimension": 3983,
+      "processes": 8,
+      "iterations_per_sample": 3,
+      "sample_times_ns_per_iteration": [
+        34841361,
+        38202486,
+        33187875
+      ],
+      "median_time_ns": 34841361,
+      "interior_cells": 15848361,
+      "flops_per_iteration": 63393444,
+      "validation_max_abs_error": 0.0,
+      "validation_pass": true,
+      "reference_sha256_rounded_6": "80de0ce79e340bdc85d0d3e04a8475226e6c1359a9e2ed49d8dcac74c810739c",
+      "parallel_sha256_rounded_6": "80de0ce79e340bdc85d0d3e04a8475226e6c1359a9e2ed49d8dcac74c810739c",
+      "work_multiplier": 8.01703378530136,
+      "pdf_formula_scaled_speedup": 0.20576633666958802,
+      "scaled_throughput_speedup": 1.65314811544261,
+      "gustafson_estimate_from_strong_s": 5.604199728066794
+    }
+  ],
+  "roofline": {
+    "student_id": "40103142",
+    "kernel": "five-point 2D stencil: center plus four neighbors, four additions per interior cell",
+    "dimension": 1408,
+    "flops_per_interior_cell": 4,
+    "ideal_streaming_bytes_per_cell": 16,
+    "no_cache_reuse_bytes_per_cell": 48,
+    "arithmetic_intensity_ideal_flop_per_byte": 0.25,
+    "arithmetic_intensity_no_reuse_flop_per_byte": 0.08333333333333333,
+    "peak_theoretical_memory_bandwidth_bytes_per_second": null,
+    "peak_bandwidth_note": "Not exposed by this host OS profile; measured stride throughput is reported as an empirical bound.",
+    "measured_peak_stride_bandwidth_bytes_per_second": 43771412954.822586,
+    "roofline_flops_per_second_at_measured_stride_bandwidth": 10942853238.705647,
+    "observed_single_process_stencil_flops_per_second": 1100620173.2520986,
+    "observed_effective_bandwidth_bytes_per_second": 4402480693.008394,
+    "fraction_of_measured_stride_bandwidth": 0.10057890289153537,
+    "cache_sizes_bytes": {
+      "L1_data_bytes_sysctl": 65536,
+      "L2_bytes_sysctl": 4194304,
+      "L3_bytes_sysctl": null,
+      "sharing_note": "Apple Silicon has per-core/per-cluster caches; see performance_levels."
+    },
+    "classification": "bandwidth-sensitive by low arithmetic intensity; the stencil did not saturate the measured stride-bandwidth bound"
+  }
+}

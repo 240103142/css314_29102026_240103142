@@ -1,0 +1,44 @@
+{
+  "captured_utc": "2026-10-29T07:33:28.354739+00:00",
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "kernel_version": "27.0.0",
+  "python": {
+    "implementation": "CPython",
+    "version": "3.12.14",
+    "compiler": "Clang 22.1.3 ",
+    "executable_name": "python3"
+  },
+  "cpu": {
+    "model": "Apple M1",
+    "architecture": "arm64",
+    "microarchitecture": "Apple M1",
+    "base_frequency_hz": null,
+    "base_frequency_source": "not exposed by the operating system",
+    "physical_cores": 8,
+    "logical_threads": 8,
+    "smt_detected": false,
+    "cache_line_bytes": 128,
+    "cache": {
+      "L1_data_bytes_sysctl": 65536,
+      "L2_bytes_sysctl": 4194304,
+      "L3_bytes_sysctl": null,
+      "sharing_note": "Apple Silicon has per-core/per-cluster caches; see performance_levels."
+    },
+    "performance_levels": [
+      {
+        "name": "Performance",
+        "physical_cores": 4,
+        "logical_cores": 4,
+        "L1_data_bytes": 131072,
+        "L2_bytes": 12582912
+      },
+      {
+        "name": "Efficiency",
+        "physical_cores": 4,
+        "logical_cores": 4,
+        "L1_data_bytes": 65536,
+        "L2_bytes": 4194304
+      }
+    ]
+  }
+}
